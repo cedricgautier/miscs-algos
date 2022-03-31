@@ -2,6 +2,12 @@ from random import randint
 
 
 def creer_paquet(n):
+    """
+    Create a list of integers from 1 to n
+    
+    :param n: the number of cards in the deck
+    :return: A list of integers from 1 to n.
+    """
     paq = [i for i in range (1, 1, n+1)]
     return paq
 
